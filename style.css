@@ -1,0 +1,152 @@
+body{
+    font-family: 'Roboto', sans-serif;   
+    font-weight: 400;
+    overflow: hidden;
+    
+}
+body a{
+    text-decoration: none;
+    
+}
+.a{
+    margin-top: 10px;
+    padding: 10px;
+    color:black;
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+
+.container{
+    background-color: rgba(100,100,100,0.8);
+    
+    top:0;
+    left:0;
+    bottom: 0;
+    right:0;
+    position: fixed;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.popup{
+    padding: 20px;
+    height: auto;
+    width: auto;
+    background-color: white;
+    position: relative; 
+}
+
+
+.search1 input{
+    border: 1px solid #f2f2f2;
+    padding: 15px;
+    padding-left: 55px;
+    width: 100%;
+    
+}
+
+.search1 input:focus{
+    
+    outline: none;
+}
+
+.search1 span{
+    position: absolute;
+    top: 34px;
+    left:30px;
+    font-size: 21px;
+    font-weight: 250;
+}
+
+.logo-container{
+    margin-top: 15px;
+    display: flex;
+    flex-flow: column wrap;
+    align-items: center;
+}
+.logo-outer{
+    display: flex;
+    flex-flow: row wrap;
+    gap: 25px;
+    justify-content: space-evenly;
+}
+
+.logo{
+    display: flex;
+    font-size: 14px;
+    flex-flow: column wrap;
+    font-weight: bold;
+    align-items: center;
+   
+}
+.logo-outer .logo a{
+    text-decoration: none;
+    color:#6e6e6e;
+}
+
+
+.logo a:hover{
+    color: black ;
+}
+
+
+
+.logo a:nth-of-type(2){
+    font-size: 15px;
+    font-weight: bold;
+    color:black;
+}
+
+.other{
+    margin-top: 40px;
+    margin-bottom: 10px;
+    font-size: 17px;
+    font-weight: bold;
+    display: flex;
+    justify-content: center;
+}
+
+.city-container {
+    display: flex;
+    flex-flow: column wrap;
+    font-weight: bold;
+    font-size: 13px;
+    
+}
+.city-container .item a{
+    color:#9b9b9b;
+}
+
+.hide{
+    display: flex;
+    justify-content: center;
+}
+.hide a{
+    margin-top: 10px;
+    color: #e35271;
+    font-weight: bold;
+}
+
+.city-Names{
+    display: grid;
+    grid-template-columns: auto auto auto auto auto;
+    
+}
+
+.item{
+    display: flex;
+    flex-flow: column wrap;
+    padding: 10px;
+    gap: 5px;
+}
+.item a:hover{
+    color:black;
+}
+
+
+
+
+
+
+
